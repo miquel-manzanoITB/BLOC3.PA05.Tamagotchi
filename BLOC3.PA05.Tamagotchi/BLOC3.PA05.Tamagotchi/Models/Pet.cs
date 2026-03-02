@@ -8,6 +8,7 @@ namespace BLOC3.PA05.Tamagotchi.Models
         public string Name { get; set; }
         public EmotionState Emotion { get; set; }
         public bool IsDead { get; set; }
+        public Stats PetStats { get; set; } = new Stats();
 
         public Pet(string name, EmotionState emotion)
         {
