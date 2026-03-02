@@ -4,12 +4,9 @@ using System.Text;
 
 namespace BLOC3.PA05.Tamagotchi.Models.Enumerations
 {
-    public enum EmotionState
+    public enum FoodType
     {
-        Happy,
-        Sad,
-        Angry,
-        Tired,
-        Sick
+        Meal,
+        Snack
     }
 }
