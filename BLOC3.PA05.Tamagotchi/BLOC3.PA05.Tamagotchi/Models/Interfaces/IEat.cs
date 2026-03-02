@@ -6,6 +6,6 @@ namespace BLOC3.PA05.Tamagotchi.Models.Interfaces
 {
     public interface IEat
     {
-        void Eat();
+        void Eat(Food food);
     }
 }

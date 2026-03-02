@@ -13,10 +13,10 @@ namespace BLOC3.PA05.Tamagotchi.Models
 
         }
 
-        public void Eat()
+        public void Eat(Food food)
         {
-            PetStats.RemoveHungry(20);
-            PetStats.AddEnergy(10);
+            PetStats.RemoveHungry(food.NutritionalValue);
+            PetStats.AddEnergy(food.NutritionalValue);
         }
 
         public void Play()
